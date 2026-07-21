@@ -1,5 +1,7 @@
 # BlendArMocap NX
 
+It was possible to port this for modern Blender and Mediapipe thanks to Claude.
+
 *[Leer esto en español](README_es.md)*
 
 **Fork / port of [BlendArMocap](https://github.com/cgtinker/BlendArMocap) (by [cgtinker](https://github.com/cgtinker)) updated to work with the modern MediaPipe Tasks API, on Blender 4.2+ (tested on 4.5 LTS).**
