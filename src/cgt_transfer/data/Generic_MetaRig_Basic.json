@@ -1,0 +1,832 @@
+{
+  "cgt_left_elbow": {
+    "cgt_props": {
+      "active": false,
+      "driver_type": "REMAP",
+      "use_loc_x": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "target": {
+        "armature_type": "BONE",
+        "obj_type": "ARMATURE",
+        "object_type": "OBJECT",
+        "target": [
+          "ANY",
+          "ARMATURE"
+        ],
+        "target_bone": "upper_arm.L",
+        "target_shape_key": "NONE"
+      },
+      "use_loc_y": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_loc_z": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      }
+    },
+    "constraints": [
+      [
+        "DAMPED_TRACK",
+        {
+          "name": "Damped Track",
+          "influence": 1.0,
+          "track_axis": "TRACK_Y",
+          "head_tail": 0.0
+        }
+      ]
+    ],
+    "collection": "cgt_POSE"
+  },
+  "cgt_left_wrist": {
+    "cgt_props": {
+      "active": false,
+      "driver_type": "REMAP",
+      "use_loc_x": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "target": {
+        "armature_type": "BONE",
+        "obj_type": "ARMATURE",
+        "object_type": "OBJECT",
+        "target": [
+          "ANY",
+          "ARMATURE"
+        ],
+        "target_bone": "forearm.L",
+        "target_shape_key": "NONE"
+      },
+      "use_loc_y": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_loc_z": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      }
+    },
+    "constraints": [
+      [
+        "DAMPED_TRACK",
+        {
+          "name": "Damped Track",
+          "influence": 1.0,
+          "track_axis": "TRACK_Y",
+          "head_tail": 0.0
+        }
+      ]
+    ],
+    "collection": "cgt_POSE"
+  },
+  "cgt_right_elbow": {
+    "cgt_props": {
+      "active": false,
+      "driver_type": "REMAP",
+      "use_loc_x": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "target": {
+        "armature_type": "BONE",
+        "obj_type": "ARMATURE",
+        "object_type": "OBJECT",
+        "target": [
+          "ANY",
+          "ARMATURE"
+        ],
+        "target_bone": "upper_arm.R",
+        "target_shape_key": "NONE"
+      },
+      "use_loc_y": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_loc_z": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      }
+    },
+    "constraints": [
+      [
+        "DAMPED_TRACK",
+        {
+          "name": "Damped Track",
+          "influence": 1.0,
+          "track_axis": "TRACK_Y",
+          "head_tail": 0.0
+        }
+      ]
+    ],
+    "collection": "cgt_POSE"
+  },
+  "cgt_right_wrist": {
+    "cgt_props": {
+      "active": false,
+      "driver_type": "REMAP",
+      "use_loc_x": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "target": {
+        "armature_type": "BONE",
+        "obj_type": "ARMATURE",
+        "object_type": "OBJECT",
+        "target": [
+          "ANY",
+          "ARMATURE"
+        ],
+        "target_bone": "forearm.R",
+        "target_shape_key": "NONE"
+      },
+      "use_loc_y": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_loc_z": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      }
+    },
+    "constraints": [
+      [
+        "DAMPED_TRACK",
+        {
+          "name": "Damped Track",
+          "influence": 1.0,
+          "track_axis": "TRACK_Y",
+          "head_tail": 0.0
+        }
+      ]
+    ],
+    "collection": "cgt_POSE"
+  },
+  "cgt_left_knee": {
+    "cgt_props": {
+      "active": false,
+      "driver_type": "REMAP",
+      "use_loc_x": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "target": {
+        "armature_type": "BONE",
+        "obj_type": "ARMATURE",
+        "object_type": "OBJECT",
+        "target": [
+          "ANY",
+          "ARMATURE"
+        ],
+        "target_bone": "thigh.L",
+        "target_shape_key": "NONE"
+      },
+      "use_loc_y": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_loc_z": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      }
+    },
+    "constraints": [
+      [
+        "DAMPED_TRACK",
+        {
+          "name": "Damped Track",
+          "influence": 1.0,
+          "track_axis": "TRACK_Y",
+          "head_tail": 0.0
+        }
+      ]
+    ],
+    "collection": "cgt_POSE"
+  },
+  "cgt_left_ankle": {
+    "cgt_props": {
+      "active": false,
+      "driver_type": "REMAP",
+      "use_loc_x": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "target": {
+        "armature_type": "BONE",
+        "obj_type": "ARMATURE",
+        "object_type": "OBJECT",
+        "target": [
+          "ANY",
+          "ARMATURE"
+        ],
+        "target_bone": "shin.L",
+        "target_shape_key": "NONE"
+      },
+      "use_loc_y": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_loc_z": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      }
+    },
+    "constraints": [
+      [
+        "DAMPED_TRACK",
+        {
+          "name": "Damped Track",
+          "influence": 1.0,
+          "track_axis": "TRACK_Y",
+          "head_tail": 0.0
+        }
+      ]
+    ],
+    "collection": "cgt_POSE"
+  },
+  "cgt_right_knee": {
+    "cgt_props": {
+      "active": false,
+      "driver_type": "REMAP",
+      "use_loc_x": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "target": {
+        "armature_type": "BONE",
+        "obj_type": "ARMATURE",
+        "object_type": "OBJECT",
+        "target": [
+          "ANY",
+          "ARMATURE"
+        ],
+        "target_bone": "thigh.R",
+        "target_shape_key": "NONE"
+      },
+      "use_loc_y": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_loc_z": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      }
+    },
+    "constraints": [
+      [
+        "DAMPED_TRACK",
+        {
+          "name": "Damped Track",
+          "influence": 1.0,
+          "track_axis": "TRACK_Y",
+          "head_tail": 0.0
+        }
+      ]
+    ],
+    "collection": "cgt_POSE"
+  },
+  "cgt_right_ankle": {
+    "cgt_props": {
+      "active": false,
+      "driver_type": "REMAP",
+      "use_loc_x": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "target": {
+        "armature_type": "BONE",
+        "obj_type": "ARMATURE",
+        "object_type": "OBJECT",
+        "target": [
+          "ANY",
+          "ARMATURE"
+        ],
+        "target_bone": "shin.R",
+        "target_shape_key": "NONE"
+      },
+      "use_loc_y": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_loc_z": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      }
+    },
+    "constraints": [
+      [
+        "DAMPED_TRACK",
+        {
+          "name": "Damped Track",
+          "influence": 1.0,
+          "track_axis": "TRACK_Y",
+          "head_tail": 0.0
+        }
+      ]
+    ],
+    "collection": "cgt_POSE"
+  },
+  "cgt_nose": {
+    "cgt_props": {
+      "active": false,
+      "driver_type": "REMAP",
+      "use_loc_x": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "target": {
+        "armature_type": "BONE",
+        "obj_type": "ARMATURE",
+        "object_type": "OBJECT",
+        "target": [
+          "ANY",
+          "ARMATURE"
+        ],
+        "target_bone": "head",
+        "target_shape_key": "NONE"
+      },
+      "use_loc_y": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_loc_z": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      }
+    },
+    "constraints": [
+      [
+        "DAMPED_TRACK",
+        {
+          "name": "Damped Track",
+          "influence": 1.0,
+          "track_axis": "TRACK_Y",
+          "head_tail": 0.0
+        }
+      ]
+    ],
+    "collection": "cgt_POSE"
+  },
+  "cgt_shoulder_center": {
+    "cgt_props": {
+      "active": false,
+      "driver_type": "REMAP",
+      "use_loc_x": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_rot_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_x": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "target": {
+        "armature_type": "BONE",
+        "obj_type": "ARMATURE",
+        "object_type": "OBJECT",
+        "target": [
+          "ANY",
+          "ARMATURE"
+        ],
+        "target_bone": "spine.003",
+        "target_shape_key": "NONE"
+      },
+      "use_loc_y": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_loc_z": {
+        "active": true,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_y": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      },
+      "use_sca_z": {
+        "active": false,
+        "remap_default": "DEFAULT",
+        "remap_details": "DEFAULT",
+        "remap_none": "DEFAULT"
+      }
+    },
+    "constraints": [
+      [
+        "DAMPED_TRACK",
+        {
+          "name": "Damped Track",
+          "influence": 1.0,
+          "track_axis": "TRACK_Y",
+          "head_tail": 0.0
+        }
+      ]
+    ],
+    "collection": "cgt_POSE"
+  }
+}

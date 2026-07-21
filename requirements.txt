@@ -1,0 +1,11 @@
+# Dependencias instaladas automaticamente por el addon (Preferences > Add-ons > BlendArMocap NX > Install dependencies).
+#
+# IMPORTANTE: no agregar opencv-python / opencv-contrib-python-headless por separado.
+# mediapipe ya trae opencv-contrib-python como dependencia propia; instalar otra
+# variante de opencv al mismo tiempo corrompe el paquete "cv2" en Windows
+# (comparten el mismo nombre interno y no son mutuamente compatibles).
+#
+# Version fijada (no "latest") porque fue la que se probo explicitamente contra
+# la Tasks API usada en este port (pose_world_landmarks, hand_world_landmarks,
+# facial_transformation_matrixes).
+mediapipe==0.10.33
